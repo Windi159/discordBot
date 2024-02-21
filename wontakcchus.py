@@ -156,5 +156,3 @@ async def 가격갱신(ctx: Context, *args):
                    f"Luna : {coin['Luna']} \nDoge : {coin['Doge']} \nStella : {coin['Stella']}")
 
     writeJson("coin_list", coin)
-
-bot.run("MTIwOTE0MzYxNTI4OTQyNTk0MA.GktRu7.sOcHHUvR9yIi0QuvRUGa6ZK3awIfIdtJ_Lk8uk")
